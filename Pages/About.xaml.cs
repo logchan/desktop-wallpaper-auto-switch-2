@@ -28,9 +28,15 @@ namespace DWAS2.Pages
             InitializeComponent();
         }
 
+        private void SetVersionTextblock()
+        {
+            versionTextblock.Text = WPFHelper.GetCurrentVer().ToString(@"#\.#\.#");
+        }
+
         private void AboutPage_Loaded(object sender, RoutedEventArgs e)
         {
             DWAS2Helper.SetUserControlLanguage(this);
+            SetVersionTextblock();
         }
 
         private void LinkTextblock_Clicked(object sender, RoutedEventArgs e)

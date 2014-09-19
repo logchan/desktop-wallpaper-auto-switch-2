@@ -37,6 +37,12 @@
                             <TextBlock Foreground="Blue" Cursor="Hand" MouseDown="LinkTextblock_Clicked">https://github.com/logchan/</TextBlock>
                         </Label>
                     </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label>Version:</Label>
+                        <Label Name="versionLabel">
+                            <TextBlock Name="versionTextblock"></TextBlock>
+                        </Label>
+                    </StackPanel>
                 </StackPanel>
             </Grid>
         </DockPanel>

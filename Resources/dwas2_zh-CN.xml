@@ -64,6 +64,14 @@
     <key>Start with Windows</key>
     <value>随Windows启动</value>
   </entry>
+  <entry>
+    <key>Website:</key>
+    <value>网站：</value>
+  </entry>
+  <entry>
+    <key>Version:</key>
+    <value>版本：</value>
+  </entry>
   <!-- Coded Messages -->
   <entry>
     <key>DWAS2 failed to set your picture position.</key>

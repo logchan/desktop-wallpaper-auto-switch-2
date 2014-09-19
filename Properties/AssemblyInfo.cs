@@ -7,7 +7,7 @@ using System.Windows.Media;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DWAS2")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Desktop Wallpaper Auto Switch 2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DWAS2")]

@@ -30,6 +30,6 @@
     </mui:ModernWindow.MenuLinkGroups>
     
     <mui:ModernWindow.TitleLinks>
-        <mui:Link DisplayName="Website" Source="http://www.logu.co/dwas/" />
+        <mui:Link DisplayName="Website" Source="http://www.logu.co/dwas2/" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
