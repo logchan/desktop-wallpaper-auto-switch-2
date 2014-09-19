@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="DWAS2.Components.PicPicker"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             x:Name="DWAS2PicPicker"
+             d:DesignHeight="200" d:DesignWidth="400" MinHeight="200" Loaded="DWAS2PicPicker_Loaded">
+    <UserControl.Resources>
+        <Style BasedOn="{StaticResource ContentRoot}" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource ContentRoot}" Margin="16 5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="#4CC1C1C1" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Image Source="{Binding PicPath, ElementName=DWAS2PicPicker}"></Image>
+        </Grid>
+        <DockPanel Margin="10 0 0 0" Grid.Column="1">
+            <StackPanel DockPanel.Dock="Top">
+                <TextBlock Text="{Binding Title, ElementName=DWAS2PicPicker}" Style="{StaticResource Heading2}" Foreground="{Binding TitleForeground, ElementName=DWAS2PicPicker}" Margin="3"></TextBlock>
+                <TextBlock Text="{Binding PicPath, ElementName=DWAS2PicPicker}" TextWrapping="Wrap" Margin="3" Name="picPathTextBlock"></TextBlock>
+            </StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Margin="3" FontSize="18" Name="browsePicButton" Click="browsePicButton_Click">Browse</Button>
+                <Button Grid.Row="1" Margin="3" FontSize="18" Name="changePicPosButton" IsEnabled="{Binding PicPosEnabled, ElementName=DWAS2PicPicker}" Click="changePicPosButton_Click">
+                    <TextBlock Name="changePicPosButtonText" Margin="0 0 0 0" FontSize="{Binding Path=FontSize, ElementName=changePicPosButton}">Fill</TextBlock>
+                </Button>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<multilang language="English(en-US)">
+  <entry>
+    <key>Desktop Wallpaper Auto Switch 2</key>
+    <value>Desktop Wallpaper Auto Switch 2</value>
+  </entry>
+  <entry>
+    <key>Language:</key>
+    <value>Language:</value>
+  </entry>
+  <entry>
+    <key>Desktop Orientation:</key>
+    <value>Desktop Orientation:</value>
+  </entry>
+  <entry>
+    <key>Landscape</key>
+    <value>Landscape</value>
+  </entry>
+  <entry>
+    <key>Portrait</key>
+    <value>Portrait</value>
+  </entry>
+  <entry>
+    <key>Fill</key>
+    <value>Fill</value>
+  </entry>
+  <entry>
+    <key>Fit</key>
+    <value>Fit</value>
+  </entry>
+  <entry>
+    <key>Stretch</key>
+    <value>Stretch</value>
+  </entry>
+  <entry>
+    <key>Hide this window</key>
+    <value>Hide this window</value>
+  </entry>
+  <entry>
+    <key>Fix Detection</key>
+    <value>Fix Detection</value>
+  </entry>
+  <entry>
+    <key>Exit</key>
+    <value>Exit</value>
+  </entry>
+  <entry>
+    <key>Wallpaper Setting</key>
+    <value>Wallpaper Setting</value>
+  </entry>
+  <entry>
+    <key>Lockscreen Setting</key>
+    <value>Lockscreen Setting</value>
+  </entry>
+  <entry>
+    <key>About</key>
+    <value>About</value>
+  </entry>
+  <entry>
+    <key>Start with Windows</key>
+    <value>Start with Windows</value>
+  </entry>
+  <!-- Coded Messages -->
+  <entry>
+    <key>DWAS2 failed to set your picture position.</key>
+    <value>DWAS2 failed to set your picture position.</value>
+  </entry>
+  <entry>
+    <key>DWAS2 failed to set your wallpaper.</key>
+    <value>DWAS2 failed to set your wallpaper.</value>
+  </entry>
+  <entry>
+    <key>DWAS2 wallpaper for current orientation does not exist.</key>
+    <value>DWAS2 wallpaper for current orientation does not exist.</value>
+  </entry>
+  <entry>
+    <key>DWAS2 failed to set your lockscreen.</key>
+    <value>DWAS2 failed to set your lockscreen.</value>
+  </entry>
+  <entry>
+    <key>DWAS2 lockscreen for current orientation does not exist.</key>
+    <value>DWAS2 lockscreen for current orientation does not exist.</value>
+  </entry>
+  <entry>
+    <key>Show DWAS2 Window</key>
+    <value>Show DWAS2 Window</value>
+  </entry>
+  <entry>
+    <key>Hide DWAS2 Window</key>
+    <value>Hide DWAS2 Window</value>
+  </entry>
+  <entry>
+    <key>Exit DWAS2</key>
+    <value>Exit DWAS2</value>
+  </entry>
+  <entry>
+    <key>DWAS2 will now restart to change the language.</key>
+    <value>DWAS2 will now restart to change the language.</value>
+  </entry>
+  <entry>
+    <key>Operation succeeded.</key>
+    <value>Operation succeeded.</value>
+  </entry>
+  <entry>
+    <key>Operation failed.</key>
+    <value>Operation failed.</value>
+  </entry>
+</multilang>

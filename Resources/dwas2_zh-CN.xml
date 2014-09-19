@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<multilang language="中文(zh-CN)">
+  <entry>
+    <key>Desktop Wallpaper Auto Switch 2</key>
+    <value>桌面背景自动切换2</value>
+  </entry>
+  <entry>
+    <key>Language:</key>
+    <value>语言：</value>
+  </entry>
+  <entry>
+    <key>Current Orientation:</key>
+    <value>当前屏幕方向：</value>
+  </entry>
+  <entry>
+    <key>Landscape</key>
+    <value>水平</value>
+  </entry>
+  <entry>
+    <key>Portrait</key>
+    <value>垂直</value>
+  </entry>
+  <entry>
+    <key>Browse</key>
+    <value>浏览</value>
+  </entry>
+  <entry>
+    <key>Fill</key>
+    <value>填充</value>
+  </entry>
+  <entry>
+    <key>Fit</key>
+    <value>适合</value>
+  </entry>
+  <entry>
+    <key>Stretch</key>
+    <value>拉伸</value>
+  </entry>
+  <entry>
+    <key>Hide this window</key>
+    <value>隐藏窗口</value>
+  </entry>
+  <entry>
+    <key>Fix Detection</key>
+    <value>反转检测</value>
+  </entry>
+  <entry>
+    <key>Exit</key>
+    <value>退出</value>
+  </entry>
+  <entry>
+    <key>Wallpaper Setting</key>
+    <value>桌面壁纸设置</value>
+  </entry>
+  <entry>
+    <key>Lockscreen Setting</key>
+    <value>锁屏设置</value>
+  </entry>
+  <entry>
+    <key>About</key>
+    <value>关于</value>
+  </entry>
+  <entry>
+    <key>Start with Windows</key>
+    <value>随Windows启动</value>
+  </entry>
+  <!-- Coded Messages -->
+  <entry>
+    <key>DWAS2 failed to set your picture position.</key>
+    <value>DWAS2 未能设置壁纸模式。</value>
+  </entry>
+  <entry>
+    <key>DWAS2 failed to set your wallpaper.</key>
+    <value>DWAS2 未能设置你的壁纸。</value>
+  </entry>
+  <entry>
+    <key>DWAS2 wallpaper for current orientation does not exist.</key>
+    <value>DWAS2 当前旋转方向的壁纸不存在。</value>
+  </entry>
+  <entry>
+    <key>DWAS2 failed to set your lockscreen.</key>
+    <value>DWAS2 未能设置你的锁屏图片。</value>
+  </entry>
+  <entry>
+    <key>DWAS2 lockscreen for current orientation does not exist.</key>
+    <value>DWAS2 当前旋转方向的锁屏图片不存在。</value>
+  </entry>
+  <entry>
+    <key>Show DWAS2 Window</key>
+    <value>显示DWAS2窗口</value>
+  </entry>
+  <entry>
+    <key>Hide DWAS2 Window</key>
+    <value>隐藏DWAS2窗口</value>
+  </entry>
+  <entry>
+    <key>Exit DWAS2</key>
+    <value>退出DWAS2</value>
+  </entry>
+  <entry>
+    <key>DWAS2 will now restart to change the language.</key>
+    <value>DWAS2将会重新启动以使语言更改生效。</value>
+  </entry>
+  <entry>
+    <key>Operation succeeded.</key>
+    <value>操作成功。</value>
+  </entry>
+  <entry>
+    <key>Operation failed.</key>
+    <value>操作失败。</value>
+  </entry>
+</multilang>
