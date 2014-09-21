@@ -63,15 +63,15 @@ namespace DWAS2.Utilities
             }
 
             // last size
-            string rWidth = ReadOneSettingSafe("lastWidth", "768");
-            string rHeight = ReadOneSettingSafe("lastHeight", "535");
+            string rWidth = ReadOneSettingSafe("lastWidth", "800");
+            string rHeight = ReadOneSettingSafe("lastHeight", "600");
             int.TryParse(rWidth, out lastWidth);
             int.TryParse(rHeight, out lastHeight);
-            if (lastWidth <= 0) lastWidth = 768;
-            if (lastHeight <= 0) lastHeight = 535;
+            if (lastWidth <= 0) lastWidth = 800;
+            if (lastHeight <= 0) lastHeight = 600;
 
             // last version
-            string rver = ReadOneSettingSafe("ver", "100");
+            string rver = ReadOneSettingSafe("ver", WPFHelper.GetCurrentVer().ToString());
             int.TryParse(rver, out ver);
 
             SaveConfig();

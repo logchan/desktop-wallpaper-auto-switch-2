@@ -14,14 +14,24 @@ namespace DWAS2.Utilities
     class DWAS2WinRT
     {
         /// <summary>
-        /// Set the lockscreen image, file MUST be in MyPictures
+        /// Set the lockscreen image, file MUST be in MyPictures (or its subfolder)
         /// </summary>
-        /// <param name="filename">filename of image</param>
-        /// <returns>true if succeed, false otherwise</returns>
-        public static async void SetLockscreen(string filename, bool deleteAfterwards = false)
+        /// <param name="relativePath">relative path of image</param>
+        public static async void SetLockscreen(string relativePath, bool deleteAfterwards = false)
         {
+            string[] path = relativePath.Split('\\');
+
             StorageFolder sfolder = KnownFolders.PicturesLibrary;
-            StorageFile sfile = await sfolder.GetFileAsync(filename);
+
+            // navigate to picture folder
+            // note: last item of path is filename
+            for(int i = 0; i < path.Length - 1; ++i)
+            {
+                if (path[i] == "") continue;
+                sfolder = await sfolder.GetFolderAsync(path[i]);
+            }
+
+            StorageFile sfile = await sfolder.GetFileAsync(path[path.Length - 1]);
             await Windows.System.UserProfile.LockScreen.SetImageFileAsync(sfile);
             if (deleteAfterwards)
             {

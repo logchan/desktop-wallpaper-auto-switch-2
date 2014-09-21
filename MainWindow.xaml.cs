@@ -143,10 +143,11 @@ namespace DWAS2
                 // check if the file is already in PictureLibrary
                 FileInfo fi = new FileInfo(path);
                 string myPicturesPath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
-                if (fi.Directory.FullName == myPicturesPath)
+                // Allow subfolder
+                if (fi.Directory.FullName.StartsWith(myPicturesPath))
                 {
                     // if so, directly set
-                    DWAS2WinRT.SetLockscreen(fi.Name);
+                    DWAS2WinRT.SetLockscreen(fi.FullName.Replace(myPicturesPath, ""));
                 }
                 else
                 {
@@ -223,7 +224,11 @@ namespace DWAS2
 
         private void ProcessConfig()
         {
-            // first version, nothing to do
+            if(config.ver < WPFHelper.GetCurrentVer())
+            {
+                config.ver = WPFHelper.GetCurrentVer();
+                config.SaveConfig();
+            }
         }
 
         private void ApplyLanguageSelection()
