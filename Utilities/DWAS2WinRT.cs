@@ -35,7 +35,7 @@ namespace DWAS2.Utilities
             await Windows.System.UserProfile.LockScreen.SetImageFileAsync(sfile);
             if (deleteAfterwards)
             {
-                await sfile.DeleteAsync();
+                await sfile.DeleteAsync(StorageDeleteOption.PermanentDelete);
             }
         }
     }
